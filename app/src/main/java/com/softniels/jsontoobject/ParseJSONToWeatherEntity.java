@@ -2,7 +2,7 @@ package com.softniels.jsontoobject;
 
 import com.google.gson.Gson;
 
-public class JSONToObject {
+public class ParseJSONToWeatherEntity {
 
     public WeatherEntity JSONToObject (String value){
        Gson gson = new Gson();
